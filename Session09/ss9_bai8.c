@@ -18,7 +18,7 @@ int main() {
     for (int i = 0 ; i < number ; i++) {
         printf("%d ", arr[i]);
     }
-
+	int sum = 0 ;
     printf("\nCac so nguyen to la: ");
 
     for (int i = 0; i < number; i++) {
@@ -39,10 +39,10 @@ int main() {
 
         if (flag == 1) {
             printf("%d ", n);
+            sum += n;
         }
     }
-
+	printf("\ntong cac so nguyen to: %d",sum);
     printf("\n");
     return 0;
 }
-
